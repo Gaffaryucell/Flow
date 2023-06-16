@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "199151559328",
+    "project_id": "akademik-fcaca",
+    "storage_bucket": "akademik-fcaca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199151559328:android:869d073619a1ead7e3dfc5",
+        "android_client_info": {
+          "package_name": "com.gaffaryucel.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199151559328-dfp7jqq8mt8mtvji9fg4prj2natolfvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gaffaryucel.flow",
+            "certificate_hash": "5633f8781bf04e583e2ec8c1ced4817aa5663ea6"
+          }
+        },
+        {
+          "client_id": "199151559328-3i220au58b67lp2eovqim32mggc4dhat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2amUg7yjEsUliJ4FDKHx5xopS1AcB4nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199151559328-3i220au58b67lp2eovqim32mggc4dhat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
