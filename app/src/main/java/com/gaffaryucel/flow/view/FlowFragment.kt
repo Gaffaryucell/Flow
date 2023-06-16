@@ -64,6 +64,7 @@ class FlowFragment : Fragment() {
         binding.resetButton.setOnClickListener {
             viewModel.resetTimer()
             musicPlayer.stopMusic()
+            //commit 
         }
         binding.musicImageView.setOnClickListener {
            showpopup()
