@@ -64,7 +64,6 @@ class FlowFragment : Fragment() {
         binding.resetButton.setOnClickListener {
             viewModel.resetTimer()
             musicPlayer.stopMusic()
-            //commit 
         }
         binding.musicImageView.setOnClickListener {
            showpopup()
@@ -72,12 +71,6 @@ class FlowFragment : Fragment() {
         binding.trackimageView.setOnClickListener {
             val action = FlowFragmentDirections.actionFlowFragmentToTrackFragment()
             Navigation.findNavController(it).navigate(action)
-        }
-        binding.cronometre.setOnClickListener {
-
-        }
-        binding.timer.setOnClickListener {
-            
         }
         observeLiveData()
     }
